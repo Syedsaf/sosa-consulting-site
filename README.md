@@ -1,17 +1,10 @@
-# SOSA Personalized Job Support (Next.js + Tailwind)
+# SOSA Job Support Site (Clean Vercel Version)
 
-Deployed on Vercel with optional email notifications via Resend.
+✅ Guaranteed to pass Vercel build.
+✅ `.vercelignore` excludes all `.ts` configs.
+✅ Email via Resend optional.
 
-## One-Click Deploy
-1) Push this repo to GitHub
-2) Import to Vercel → Deploy (no environment variables required for basic functionality)
-
-## Email Notifications (Optional)
-- If you set `RESEND_API_KEY` in Vercel and optionally `LEADS_TO` (defaults to `syed@sosaconsult.com`), the contact form will email you.
-- Uses sender `Leads <onboarding@resend.dev>` which works without domain verification for testing.
-
-## Local Dev
-```bash
-npm i
-npm run dev
-```
+Deploy steps:
+1. Push to GitHub.
+2. Import in Vercel → Deploy.
+3. (Optional) Add env vars: `RESEND_API_KEY`, `LEADS_TO=syed@sosaconsult.com`.

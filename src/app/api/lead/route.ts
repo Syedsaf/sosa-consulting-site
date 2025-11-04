@@ -7,7 +7,6 @@ export async function POST(req: NextRequest) {
   const email = formData.get("email");
   const phone = formData.get("phone");
   const message = formData.get("message");
-
   const key = process.env.RESEND_API_KEY;
   const to = process.env.LEADS_TO || "syed@sosaconsult.com";
 
