@@ -1,23 +1,11 @@
 import "./globals.css";
-import type { Metadata } from "next";
-import { site } from "@/data/site";
 
-export const metadata: Metadata = {
-  title: site.name,
-  description: site.description,
-  openGraph: {
-    title: site.name,
-    description: site.description,
-    url: `https://${site.domain}`,
-    siteName: site.name,
-    images: [{ url: "/og.jpg", width: 1200, height: 630 }],
-    locale: "en_IN",
-    type: "website",
-  },
-  alternates: { canonical: `https://${site.domain}` },
+export const metadata = {
+  title: "SOSA Job Support",
+  description: "Personalized Job Support Services by SOSA Consulting",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="antialiased">{children}</body>
