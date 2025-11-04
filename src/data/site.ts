@@ -25,10 +25,6 @@ export const site = {
     { name: "Pro", price: "₹12,999", features: ["Everything in Starter", "3 mock interviews", "Referrals (best effort)", "WhatsApp support (30 days)"] },
     { name: "Premium", price: "₹24,999", features: ["Everything in Pro", "Live coaching (4 sessions)", "Offer review & negotiation"] },
   ],
-  faqs: [
-    { q: "How quickly can I see results?", a: "Many clients see callbacks within 2–4 weeks, but timelines vary by role and market." },
-    { q: "Do you guarantee a job?", a: "We can’t guarantee offers, but we do guarantee high-quality prep and strategy." },
-  ],
   testimonials: [
     { name: "Mohit, UAE", quote: "Got placed in 30 days after struggling for months!" },
     { name: "Farheen, Dubai", quote: "Cracked interviews in ~2 weeks with the mock prep." },

@@ -1,6 +1,4 @@
-export default function Section({
-  id, title, subtitle, children
-}: { id?: string; title?: string; subtitle?: string; children?: React.ReactNode }) {
+export default function Section({ id, title, subtitle, children }: { id?: string; title?: string; subtitle?: string; children?: React.ReactNode }) {
   return (
     <section id={id} className="py-16">
       <div className="mx-auto max-w-6xl px-4">
